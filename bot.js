@@ -1,6 +1,6 @@
 const discord = require('discord.js');
 var bot = new discord.Client();
-var config = require('./configs/baseconfig');
+var config = require('./config.json');
 var prefix = "."
 bot.login(process.env.token);
 
