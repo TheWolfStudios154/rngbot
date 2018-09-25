@@ -1,6 +1,6 @@
 module.exports.run = (bot, message, args, discord) => {
     let em = new discord.RichEmbed()
-    .setTitle("ðŸŽ² Your number is: ðŸŽ²")
+    .setTitle("🎲 Your number is: 🎲")
     .setDescription(Math.floor(Math.random() * 500000))
     .setFooter(`${message.author.username}'s random number.`)
     .setColor("BLUE")
