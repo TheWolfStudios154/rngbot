@@ -5,3 +5,10 @@ module.exports.run = (bot, message, args, discord) => {
   .addField(Math.floor(Math.random()*6))
   message.channel.send({embed: em})
 }
+
+{
+    module.exports.help = {
+        name: "rng"
+    }
+
+}
