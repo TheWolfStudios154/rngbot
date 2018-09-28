@@ -42,7 +42,7 @@ module.exports.run = (bot, message, args) => {
     .setColor("7289DA")
     .setAuthor(`${bot.user.username} Announcement`)
     .setDescription(`**Hello! The developement team on RNG bot needs to send an announcement. **\n${args.join(' ')}\n\n**This message was sent to *${guild.name}* on purpose from the creator.**\n*Please be aware that this announcement system will not be spammed.*`)
-    .setFooter(`An official announcement from RNG Bot Developement Team`, bot.user.avatarURL ("Reply with \"yes" "to send to every server.""))
+    .setFooter(`Reply with yes to send to every server.`)
     .setTimestamp();
 
   message.channel.send({ embed: announceTest })
