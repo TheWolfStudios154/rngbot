@@ -19,8 +19,8 @@ function sendAnnounce(bot, message, args, guild) {
   let announce = new discord.RichEmbed()
     .setColor("7289DA")
     .setAuthor(`${bot.user.username} Announcement`)
-    .setDescription(`**Hello there! The creators of Himiachi, (<@276040277293268992> and <@242734840829575169>) need to send you an announcement. Here it is! **\n${args.join(' ')}\n\n**This message was sent to *${guild.name}* on purpose from the creator.**\n*Please be aware that this announcement system will not be spammed.*`)
-    .setFooter(`An official announcement from Wolfy and FHGDev.`, bot.user.avatarURL)
+    .setDescription(`**Hello! The developement team on RNG bot needs to send an announcement. **\n${args.join(' ')}\n\n**This message was sent to *${guild.name}* on purpose from the creator.**\n*Please be aware that this announcement system will not be spammed.*`)
+    .setFooter(`An official announcement from RNG Bot Developement Team`, bot.user.avatarURL)
     .setTimestamp();
 
   if (sendChannel !== "") {
