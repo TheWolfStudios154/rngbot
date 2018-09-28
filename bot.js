@@ -16,7 +16,7 @@ require('fs').readdir("./commands/", (err, files) => {
   });
 });
 
-console.log(botcommands.length)
+console.log(bot.commands.length)
 
 // ===Done Loading commands===
 
