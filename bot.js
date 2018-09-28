@@ -16,6 +16,8 @@ require('fs').readdir("./commands/", (err, files) => {
   });
 });
 
+console.log(botcommands.length)
+
 // ===Done Loading commands===
 
 
