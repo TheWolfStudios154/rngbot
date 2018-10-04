@@ -1,5 +1,5 @@
 module.exports.run = (bot, message, args, discord) => {
-  let em = discord.NewEmbed()
+  let em = new discord.RichEmbed()
   .setTitle("RNG Help Command.")
   .setDescription("This is a list of RNGBot's commands!!")
   .addField("Number Commands.", ".rng, .roll")
