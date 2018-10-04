@@ -7,3 +7,10 @@ module.exports.run = (bot, message, args, discord) => {
   
   message.channel.send({embed: em})
 }
+
+{
+    module.exports.help = {
+        name: "help"
+    }
+
+}
